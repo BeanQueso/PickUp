@@ -1,0 +1,41 @@
+.Header-main {
+  text-align: center;
+}
+
+.App-logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 90px;
+}
+
+@font-face {
+  font-family: CaptureIt;
+  src: url(Capture\ it.ttf);
+}
+
+.header-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 70px;
+  color:orange;
+  font-family:CaptureIt;
+}
+
+
+.header {
+  text-align: center;
+  background-color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

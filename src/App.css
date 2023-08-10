@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.body-content{
+  justify-content: center;
+  background-color: black;
+  height:100vh;
+
+  margin-top:-1px;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+  text-align: center;  
+}
+
+.bg{
+  width:100%;
+}
+
+.login-button{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top:40%;
+
+  width:45%;
+  height:10%;
+
+  justify-content: center;
+  border-radius: 40px;
+  border:0px; 
+  color:black;
+
+  background-color: orange;
+  text-align: center;
+}
+.signup-button{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height:10%;
+  
+  width:45%;
+  margin-top:5%;
+  margin-left:2%;
+
+  justify-content: center;
+  border-radius: 40px;
+  border:0px; 
+  color:black;
+
+  background-color: orange;
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
